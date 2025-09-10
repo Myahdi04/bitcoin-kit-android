@@ -2,7 +2,7 @@ name: Build APK
 
 on:
   push:
-    branches: [main]  # если ветка называется master, поменяй на master
+    branches: [master] # если главная ветка master
 
 jobs:
   build:
